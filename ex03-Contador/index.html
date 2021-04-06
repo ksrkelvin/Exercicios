@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+
+    <main>
+        <div>
+            <div class="input">
+                <label for="init">Inicio: </label>
+                <input type="number" id="init" min="0">
+            </div>
+            <div class="input">
+                <label for="end">Fim:</label>
+                <input type="number" id="end" min="0">
+            </div>
+            <div class="input">
+                <label for="interval">Intervalo:</label>
+                <input type="number" id="interval" min="1">
+            </div>
+
+            <button id="count" onclick="count()">Contar</button>
+
+        </div>
+        <div id="res">
+            <p>Preparando a contagem...</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; BlubarryEnterprise</p>
+
+    </footer>
+
+    <script src="/js/script.js"></script>
+    
+</body>
+</html>
